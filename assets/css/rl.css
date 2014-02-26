@@ -1,0 +1,5 @@
+.tabel-laporan { border: 1px solid #000;empty-cells: show; border-radius:5px; margin-top:5px; clear: both; border-collapse: collapse; background: #fff; color: #000}
+.tabel-laporan th{text-align: center;}
+.tabel-laporan td, th{border: 1px solid #000; padding: 5px;}
+.tabel-laporan .number{text-align: center;}
+.tabel-laporan th rowspan, td rowspan{vertical-align: middle;}

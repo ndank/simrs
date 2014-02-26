@@ -1,0 +1,14 @@
+/* 
+    Document   : print-A4
+    Created on : Dec 30, 2013, 11:32:25 AM
+    Author     : arvinnizar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*, body { background: #fff; font-family: Arial; font-size: 12px }
+body { width: 21cm; height: 29.7cm; }
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0mm 1cm 1mm 1cm;  /* this affects the margin in the printer settings */
+}

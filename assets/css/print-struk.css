@@ -1,0 +1,19 @@
+/* 
+    Document   : print
+    Created on : Dec 30, 2013, 11:09:26 AM
+    Author     : arvinnizar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*, body { font-family: Arial; font-size: 10px; }
+body { width: 57.5mm; height: auto; }
+.brandstruk { font-size: 10px; text-transform: uppercase; font-weight: bold; border-bottom: 1px solid #000; }
+.brandstruk .detail { font-size: 10px; font-weight: normal; text-transform: inherit; }
+.space { height: 0.25cm; }
+.resep_dokter td { font-size: 12px; }
+table { text-transform: uppercase; }
+.kop-surat { text-align: center; }
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0mm 0.25cm;  /* this affects the margin in the printer settings */
+}
